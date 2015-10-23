@@ -8,6 +8,8 @@ install Request (npm install request)
 
 install Cheerio (npm install cheerio)
 
+install MySQL connector (npm install mysql)
+
 cd into root directory and run npm install to install dependencies
 
 

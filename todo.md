@@ -4,6 +4,9 @@ Features
 - add DST to position loop
 - impl defense
 
+Clean up
+- modularize features to module exports
+
 Scripts
 - players who are "improving week to week"
 - best teams to play against

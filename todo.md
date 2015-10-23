@@ -2,7 +2,6 @@ Features
 - breakout passing c/a
 - add loop for weeks
 - add DST to position loop
-- impl defense
 
 Clean up
 - modularize features to module exports

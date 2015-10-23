@@ -15,10 +15,14 @@ DELETE FROM player_wk_receiving_stats;
 CREATE TABLE player (
 id INTEGER PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(200) NOT NULL,
+position VARCHAR(2) NOT NULL,
+team VARCHAR(3) NOT NULL,
 
-UNIQUE (name),
+UNIQUE (name, position, team),
 
-INDEX name_idx(name)
+INDEX name_idx(name),
+INDEX position_idx(position),
+INDEX team_idx(team)
 );
 
 CREATE TABLE player_wk_espn_pts (
